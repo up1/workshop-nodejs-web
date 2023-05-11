@@ -19,6 +19,7 @@ Open in browser = http://localhost:3000
 ## Start with Docker Compose
 ```
 $docker compose build
+
 $docker compose up -d db
 $docker compose ps
 
