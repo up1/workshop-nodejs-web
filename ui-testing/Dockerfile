@@ -3,4 +3,4 @@ RUN pip install robotframework
 RUN pip install robotframework-seleniumlibrary
 WORKDIR /testcases
 COPY . .
-CMD robot *.robot
+CMD robot -d /reports *.robot

@@ -27,7 +27,7 @@ services:
     build: 
       context: ./ui-testing
     volumes:
-      - ./reports:/testcases
+      - ./reports:/reports
 
   selenium-hub:
     image: selenium/hub:4.9.1-20230508
