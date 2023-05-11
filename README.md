@@ -1,4 +1,4 @@
-## Demo app
+## Workshop
 * NodeJS
 * Database :: MySQL
 
