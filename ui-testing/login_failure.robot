@@ -5,7 +5,7 @@ Suite Setup  ไปยังหน้า login
 Suite Teardown   Close Browser
 
 *** Variables ***
-${URL}     http://sandbox.coe.or.th:3000
+${URL}     http://58.97.116.241:3000
 
 *** Test Cases ***
 #-----------------------------------------------------------------------------
