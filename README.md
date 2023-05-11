@@ -20,6 +20,10 @@ Open in browser = http://localhost:3000
 ```
 $docker compose build
 $docker compose up -d db
+$docker compose ps
+
 $docker compose up -d web
 $docker compose ps
 ```
+
+Open in browser = http://localhost:3000
