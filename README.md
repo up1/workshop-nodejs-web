@@ -30,3 +30,30 @@ $docker compose logs --follow
 ```
 
 Open in browser = http://localhost:3000
+
+## UI testing with Selenium
+```
+$docker compose up -d chrome
+
+$docker compose build ui-test
+$docker compose up ui-test
+```
+
+## Fix issue !!
+```
+$sudo vi /etc/docker/daemon.json
+```
+
+Edit file
+```
+{
+  "ipv6": true,
+  "fixed-cidr-v6": "2001:db8:1::/64"
+}
+```
+
+Restart Docker
+```
+$sudo service docker start
+```
+
