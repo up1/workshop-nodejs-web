@@ -22,9 +22,11 @@ $docker compose build
 
 $docker compose up -d db
 $docker compose ps
+$docker compose logs --follow
 
 $docker compose up -d web
 $docker compose ps
+$docker compose logs --follow
 ```
 
 Open in browser = http://localhost:3000
