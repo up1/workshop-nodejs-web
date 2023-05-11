@@ -56,4 +56,7 @@ Restart Docker
 ```
 $sudo service docker start
 ```
-
+## [CI/CD with Jenkins](https://github.com/up1/workshop-nodejs-web/tree/main/ci)
+* Install
+* Design pipeline
+* Create and run pipeline
