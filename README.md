@@ -2,6 +2,11 @@
 * NodeJS
 * Database :: MySQL
 
+## Clone or Download source code
+```
+$git clone https://github.com/up1/workshop-nodejs-web.git
+$cd workshop-nodejs-web
+```
 
 ## Step to run
 ```
