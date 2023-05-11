@@ -1,5 +1,6 @@
 ## Build
 ```
+$cd ci
 $docker image build -t my-jenkins .
 ```
 
